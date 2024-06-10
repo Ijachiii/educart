@@ -1,0 +1,42 @@
+<div style="font-family: Helvetica,Arial,sans-serif;min-width:1000px;overflow:auto;line-height:2">
+    <div style="margin:50px auto;width:70%;padding:20px 0">
+        <div style="border-bottom:1px solid #eee">
+            <a href="" style="font-size:1.4em;color: #00466a;text-decoration:none;font-weight:600">Educarts</a>
+        </div>
+        <p style="font-size:1.1em">Hi, {{name}}</p>
+        <p>Thank you for submitting your SEVIS information.
+            We are pleased to inform you that your submission has been received and its payment is pending.
+            Your Order ID for this transaction is: {{order_id}}.
+        </p>
+        <p>Below are the details of your pending transaction.</p>
+        <ul>
+            <li>
+                <p>Payment Amount: N{{amount}}</p>
+            </li>
+            <li>
+                <p>Payment Method: Card/Bank Transfer</p>
+            </li>
+            <li>
+                <p>Form Type: {{form_type}}</p>
+            </li>
+            <li>
+                <p>Order ID: {{order_id}}</p>
+            </li>
+            <li>
+                <p>Payment Status: Pending</p>
+            </li>
+        </ul>
+        <!-- <h2
+            style="background: #00466a;margin: 0 auto;width: max-content;padding: 0 10px;color: #fff;border-radius: 4px;">
+            {{order_id}}
+        </h2> -->
+        <p>Thank you once again for choosing Educarts. We look forward to assisting you throughout
+            this process.</p>
+        <p style="font-size:0.9em;">Regards,<br />Educarts</p>
+        <hr style="border:none;border-top:1px solid #eee" />
+        <div style="float:right;padding:8px 0;color:#aaa;font-size:0.8em;line-height:1;font-weight:300">
+            <p>HackCity Tech</p>
+            <p>Globe US</p>
+        </div>
+    </div>
+</div>
